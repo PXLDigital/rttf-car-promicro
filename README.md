@@ -5,7 +5,7 @@
 
 Change settings in file to adapt to your Receiver and Transmitter :
 
-
+```c
 // >>> Input signal modulation (uncomment only one!) <<<
 #define PWM_RECEIVER  // Enable Pulse Width Modulation receiver
 //#define PPM_RECEIVER  // Enable Pulse Position Modulation receiver
@@ -21,3 +21,4 @@ Change settings in file to adapt to your Receiver and Transmitter :
 //#define CAL_TIMEOUT 7000  // Custom delay in milliseconds to auto-accept calibration data (default: 5000)
 //#define CAL_DISABLE  // Uncommenting this line causes the calibration to be disabled *
 // (* when calibration disabled, do not forget to set stick center and halfway below!)
+```
